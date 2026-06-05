@@ -29,6 +29,6 @@ void loop() {
   
   float angulo_pitch = atan2(a.acceleration.x, a.acceleration.z) * 57.2958;
   float velocidade_angular_y = g.gyro.y * 57.2958;
-  delay (100); //delay para não sobrecarregar o loop
+  
   
 }
